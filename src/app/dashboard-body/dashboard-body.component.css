@@ -1,0 +1,169 @@
+/* Container styles */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 20vh; /* Margin from the top */
+}
+/* Left Side styles */
+.left-side {
+  display: flex;
+  flex-direction: column; /* Change to a column layout */
+  align-items: center; /* Center the items horizontally */
+  padding: 50px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card.active{
+
+  width: 170px;
+  height: 120px;
+  background: #F4DBD4;
+  border-radius: 24px;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.card {
+  width: 170px;
+  height: 120px;
+  background: #FFFFFF;
+  border-radius: 24px;
+  opacity: 1;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Rest of your card styles */
+
+.graph {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.number {
+  top: 236px;
+left: 242px;
+width: 123px;
+height: 53px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 25px/43px Roboto;
+letter-spacing: 0px;
+color: #3D5161;
+opacity: 1;
+}
+
+.title {
+  /* Layout Properties */
+  width: 123px;
+  height: 20px;
+  text-align: left;
+  margin-top: -10px;
+  font-weight: bold; /* Add this property to make the text bold */
+  font-size: 12px; /* You can specify the font size as needed */
+  line-height: 15px; /* You can specify the line height as needed */
+  font-family: 'Montserrat', sans-serif; /* Specify the font family as needed */
+  letter-spacing: 0px;
+  color: #3D5161;
+  opacity: 1;
+}
+.currency {
+  /* Layout Properties */
+  top: 248px;
+  left: 371px;
+  width: 61px;
+  height: 29px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 22px/29px Roboto;
+  letter-spacing: 0px;
+  color: #3D5161;
+  opacity: 1;
+}
+.sd{
+
+  top: 248px;
+  left: 371px;
+  width: 61px;
+  height: 29px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 15px/29px Roboto;
+  letter-spacing: 0px;
+  color: #3D5161;
+  opacity: 1;
+}
+.arrow {
+  font: normal normal normal 16px/21px Roboto;
+  color: #FF7F5C;
+  opacity: 1;
+  margin-top: 5px;
+}
+.buttons-container {
+  /* Layout Properties */
+
+  width: 250px;
+  height: 44px;
+  /* UI Properties */
+  border-radius: 15%;
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  margin-left: 475px;
+  margin-top: 20px;
+}
+
+.button {
+  /* UI Properties */
+  background: #FFFFFF;
+  border: none; /* Remove the button's individual border */
+  opacity: 1;
+  width: 100%; /* Adjust the width as needed */
+  text-align: center;
+  font: normal normal normal 14px/18px Montserrat;
+  letter-spacing: 1.4px;
+  color: #3D5161;
+  border-radius: 15%;
+
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button.active {
+  background-color: #FF7F5C; /* Background color for active button */
+  color: white; /* Text color for active button */
+}
+
+.graph {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #FFFFFF;
+}
+
+/* Right Side styles */
+.right-side {
+  flex: 1;
+  padding: 50px; /* Add padding for the gap */
+}
+
+h1 {
+  margin-bottom: 20px; /* Add margin below headers */
+}
+
+.graph {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px; /* Add margin between graphs */
+}
