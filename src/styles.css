@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+}
+
+body{
+  top: 0px;
+left: 0px;
+width: 100vw;
+height: 100vh;
+/* UI Properties */
+background: #F9F5F3 0% 0% no-repeat padding-box;
+opacity: 1;
+}
