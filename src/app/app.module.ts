@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { TopNavComponent } from './top-nav/top-nav.component';
 import { DashboardBodyComponent } from './dashboard-body/dashboard-body.component';
+import { LitComponendComponent } from './lit-componend/lit-componend.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SideBarComponent,
     TopNavComponent,
-    DashboardBodyComponent
+    DashboardBodyComponent,
+    LitComponendComponent
   ],
   imports: [
     BrowserModule,

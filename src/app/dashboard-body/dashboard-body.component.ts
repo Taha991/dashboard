@@ -1,5 +1,6 @@
 import { Component, ViewChild, AfterViewInit } from '@angular/core';
 import { Chart, registerables } from 'chart.js';
+
 @Component({
   selector: 'app-dashboard-body',
   templateUrl: './dashboard-body.component.html',

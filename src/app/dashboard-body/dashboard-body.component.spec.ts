@@ -1,10 +1,12 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { LitComponendComponent } from '../lit-componend/lit-componend.component';
 
 import { DashboardBodyComponent } from './dashboard-body.component';
 
 describe('DashboardBodyComponent', () => {
   let component: DashboardBodyComponent;
   let fixture: ComponentFixture<DashboardBodyComponent>;
+  LitComponendComponent;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
