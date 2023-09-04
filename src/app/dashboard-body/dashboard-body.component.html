@@ -1,7 +1,7 @@
 <div class="container">
   <!-- Left Side -->
   <div class="left-side">
-      <!-- Cards -->
+
       <div class="cards-container">
         <div class="card active">
           <div class="number">71,028 <span class="currency">EGP</span></div>
@@ -30,16 +30,16 @@
         </div>
       </div>
 
-      <!-- Buttons -->
+
       <div class="buttons-container">
         <button class="button active">GRAPH</button>
         <button class="button">LIST</button>
       </div>
-      <!-- Graph -->
+
       <div class="graph">
 
         <div style="width: 100%;">
-          <canvas id="myChart" width="700" height="250" margin-top="30px" #mychart></canvas>
+          <canvas id="myChart" width="700" height="250" #mychart></canvas>
         </div>
 
 
@@ -49,17 +49,38 @@
   <!-- Right Side -->
   <div class="right-side">
       <!-- Header -->
-      <h1>HH</h1>
+      <h1 class="header">Hourly Sales</h1>
       <!-- Graph -->
-      <div class="graph">Graph Here</div>
+      <div class="graphC">
+        <canvas id="radarChart"  #radarChart></canvas>
+
+
+      </div>
       <!-- Another Header -->
-      <h1></h1>
-      <div class="graph">Graph Here</div>
+      <h1 class="header">Hourly Sales</h1>
+      <div class="chart-container">
 
-      <div class="graph">Graph Here</div>
+        <div class="chart-info">
+          <img src="../../assets/Images/gas-station-svgrepo-com.png" alt="Station Icon" class="station-icon">
+          <div class="station-name">Station Name</div>
+          <div class="station-value">62,721M</div>
+        </div>
+        <div class="skill-bar" style="width: 48%;"></div>
 
-      <div class="graph">Graph Here</div>
+        <div class="chart-info">
+          <img src="../../assets/Images/gas-station-svgrepo-com.png" alt="Station Icon" class="station-icon">
+          <div class="station-name">Station Name</div>
+          <div class="station-value">62,721M</div>
+        </div>
+        <div class="skill-bar" style="width: 48%;"></div>
 
-      <div class="graph">Graph Here</div>
+        <div class="chart-info">
+          <img src="../../assets/Images/gas-station-svgrepo-com.png" alt="Station Icon" class="station-icon">
+          <div class="station-name">Station Name</div>
+          <div class="station-valuee">NM</div>
+        </div>
+        <div class="skill-bar-non" style="width: 100%;"></div>
+
+      </div>
 </div>
 </div>

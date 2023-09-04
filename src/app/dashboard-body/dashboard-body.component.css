@@ -1,15 +1,15 @@
-/* Container styles */
+
 .container {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  margin-top: 20vh; /* Margin from the top */
+  margin-top: 20vh;
 }
-/* Left Side styles */
+
 .left-side {
   display: flex;
-  flex-direction: column; /* Change to a column layout */
-  align-items: center; /* Center the items horizontally */
+  flex-direction: column;
+  align-items: center;
   padding: 50px;
 }
 
@@ -46,7 +46,7 @@
   justify-content: center;
   align-items: center;
 }
-/* Rest of your card styles */
+
 
 .graph {
   border: 1px solid #ccc;
@@ -57,7 +57,7 @@
 left: 242px;
 width: 123px;
 height: 53px;
-/* UI Properties */
+
 text-align: left;
 font: normal normal normal 25px/43px Roboto;
 letter-spacing: 0px;
@@ -66,26 +66,26 @@ opacity: 1;
 }
 
 .title {
-  /* Layout Properties */
+
   width: 123px;
   height: 20px;
   text-align: left;
   margin-top: -10px;
-  font-weight: bold; /* Add this property to make the text bold */
-  font-size: 12px; /* You can specify the font size as needed */
-  line-height: 15px; /* You can specify the line height as needed */
-  font-family: 'Montserrat', sans-serif; /* Specify the font family as needed */
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0px;
   color: #3D5161;
   opacity: 1;
 }
 .currency {
-  /* Layout Properties */
+
   top: 248px;
   left: 371px;
   width: 61px;
   height: 29px;
-  /* UI Properties */
+
   text-align: left;
   font: normal normal normal 22px/29px Roboto;
   letter-spacing: 0px;
@@ -98,7 +98,7 @@ opacity: 1;
   left: 371px;
   width: 61px;
   height: 29px;
-  /* UI Properties */
+
   text-align: left;
   font: normal normal normal 15px/29px Roboto;
   letter-spacing: 0px;
@@ -112,24 +112,23 @@ opacity: 1;
   margin-top: 5px;
 }
 .buttons-container {
-  /* Layout Properties */
+
 
   width: 250px;
   height: 44px;
-  /* UI Properties */
+
   border-radius: 15%;
   display: flex;
-  justify-content: flex-end; /* Align buttons to the right */
+  justify-content: flex-end;
   margin-left: 475px;
   margin-top: 20px;
 }
 
 .button {
-  /* UI Properties */
   background: #FFFFFF;
-  border: none; /* Remove the button's individual border */
+  border: none;
   opacity: 1;
-  width: 100%; /* Adjust the width as needed */
+  width: 100%;
   text-align: center;
   font: normal normal normal 14px/18px Montserrat;
   letter-spacing: 1.4px;
@@ -141,8 +140,8 @@ opacity: 1;
 }
 
 .button.active {
-  background-color: #FF7F5C; /* Background color for active button */
-  color: white; /* Text color for active button */
+  background-color: #FF7F5C;
+  color: white;
 }
 
 .graph {
@@ -152,18 +151,136 @@ opacity: 1;
   background-color: #FFFFFF;
 }
 
-/* Right Side styles */
+
 .right-side {
   flex: 1;
-  padding: 50px; /* Add padding for the gap */
+  padding: 50px;
 }
 
 h1 {
-  margin-bottom: 20px; /* Add margin below headers */
+  margin-bottom: 20px;
 }
 
 .graph {
   border: 1px solid #ccc;
   padding: 20px;
-  margin-bottom: 20px; /* Add margin between graphs */
+  margin-bottom: 20px;
+}
+
+.header{
+  top: 191px;
+left: 1637px;
+width: 130px;
+height: 24px;
+/* UI Properties */
+text-align: left;
+font: normal normal bold 20px/24px Montserrat;
+letter-spacing: 0px;
+color: #3D5161;
+opacity: 1;
+}
+
+.graphc{
+  top: 275px;
+left: 1566px;
+width: 267px;
+height: 267px;
+transform: matrix(0.97, 0.26, -0.26, 0.97, 0, 0);
+/* UI Properties */
+border: 1px solid #BCC0CD;
+opacity: 1;
+
+}
+
+/* */
+.skill-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Adjust spacing between skill bars */
+}
+
+.skill-bar-label {
+  width: 80px; /* Adjust label width as needed */
+  font-weight: bold; /* Make the label bold */
+}
+
+.skill-bar-value {
+  width: 100%;
+  background-color: #f0f0f0; /* Background color for the skill bar */
+  height: 20px; /* Height of the skill bar */
+  border-radius: 10px; /* Rounded corners for the skill bar */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.skill-level {
+  height: 100%;
+  background-color: #007BFF; /* Skill level color */
+}
+
+/**/
+
+
+.skill-bar {
+  /* Layout Properties */
+  width: 297px;
+  height: 6px;
+  /* UI Properties */
+  background: #FF7F5C;
+  border-radius: 20px;
+  opacity: 1;
+  margin-left: 50px;
+}
+.skill-bar-non{
+ /* Layout Properties */
+ width: 297px;
+ height: 6px;
+ /* UI Properties */
+ background: #B9CDE2;
+ border-radius: 20px;
+ opacity: 1;
+ margin-left: 50px;
+}
+
+.chart-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.station-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.station-details {
+  display: flex;
+  flex-direction: column; /* Stack station name and value vertically */
+}
+
+.station-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.station-value {
+  font-size: 16px;
+  color: #FF7F5C; /* Adjust color as needed */
+  margin-top: 5px; /* Add some vertical space */
+  margin-left: 50px;
+}
+
+.station-valuee{
+  /* Layout Properties */
+top: 941px;
+left: 1796px;
+width: 41px;
+margin-left: 50px;
+/* UI Properties */
+text-align: center;
+letter-spacing: 0px;
+color: #B9CDE2;
+opacity: 1;
+
 }
