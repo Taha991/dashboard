@@ -1,13 +1,16 @@
 *{
   margin: 0;
 }
-
-body{
+body {
   top: 0px;
-left: 0px;
-width: 100vw;
-height: 100vh;
-/* UI Properties */
-background: #F9F5F3 0% 0% no-repeat padding-box;
-opacity: 1;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+
+  background: linear-gradient(to bottom, #FFF 0%, #FFF 10%, #F9F5F3 10%, #F9F5F3 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 0;
+  overflow-x: hidden;
 }
+
+
