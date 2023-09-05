@@ -116,19 +116,18 @@
   right: 0;
   display: none;
   background: #FFFFFF;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.29); /* Add a drop shadow */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.29);
   opacity: 1;
-  z-index: 1; /* Ensure the dropdown appears above other elements */
+  z-index: 1;
 }
 
-/* Add this style for the dropdown content */
 .dropdown-content {
   padding: 10px;
 }
 
 .fa-solid {
 
-  cursor: pointer; /* Show pointer cursor on hover for clickability */
+  cursor: pointer;
 }
 
 
@@ -141,24 +140,57 @@
 
 .grid-item {
   display: flex;
-  flex-direction: row; /* Items in the same row */
+  flex-direction: row;
   align-items: center;
-  gap: 30%; /* Adjust the gap between items as needed */
+  gap: 30%;
 }
 
 .item {
   display: flex;
-  flex-direction: column; /* Items in separate lines */
+  flex-direction: column;
   align-items: center;
 }
 
 .item h2 {
   font-size: 14px;
   font-weight: bold;
-  margin: 0; /* Remove default margin to avoid spacing issues */
+  margin: 0;
 }
 
 .item span {
   font-size: 12px;
   color: #000;
+}
+@media (min-width: 1920px) and (max-width: 2560px) {
+  .card {
+    width: 60%;
+
+  }
+
+  .grid-item {
+    gap: 15%;
+
+  }
+
+  .item h2 {
+    font-size: 16px;
+  }
+
+}
+
+
+@media (min-width: 1101px) and (max-width: 1281px) {
+  .card {
+    width: 50vw;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .grid-item {
+    gap: 10%;
+  }
+
+  .item h2 {
+    font-size: 14px; 
+  }
 }

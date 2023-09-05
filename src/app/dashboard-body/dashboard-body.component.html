@@ -32,8 +32,8 @@
 
 
       <div class="buttons-container">
-        <button class="button" [class.active]="currentView === 'chart'" (click)="switchView('chart')">GRAPH</button>
-        <button class="button" [class.active]="currentView === 'list'" (click)="switchView('list')">LIST</button>
+        <button class="button" [class.active]="currentView === 'chart'" (click)="switchView('chart')"><i class="fa-solid fa-signal"></i> GRAPH</button>
+        <button class="button" [class.active]="currentView === 'list'" (click)="switchView('list')"><i class="fa-solid fa-list"></i> LIST</button>
       </div>
 
       <div class="graph" *ngIf="currentView === 'chart'">
@@ -72,7 +72,6 @@
 
 
       </div>
-      <!-- Another Header -->
       <h1 class="header">Hourly Sales</h1>
       <div class="chart-container">
 

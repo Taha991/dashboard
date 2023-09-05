@@ -197,25 +197,25 @@ opacity: 1;
 .skill-bar {
   display: flex;
   align-items: center;
-  margin-top: 10px; /* Adjust spacing between skill bars */
+  margin-top: 10px;
 }
 
 .skill-bar-label {
-  width: 80px; /* Adjust label width as needed */
-  font-weight: bold; /* Make the label bold */
+  width: 80px;
+  font-weight: bold;
 }
 
 .skill-bar-value {
   width: 100%;
-  background-color: #f0f0f0; /* Background color for the skill bar */
-  height: 20px; /* Height of the skill bar */
-  border-radius: 10px; /* Rounded corners for the skill bar */
-  overflow: hidden; /* Hide overflowing content */
+  background-color: #f0f0f0;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .skill-level {
   height: 100%;
-  background-color: #007BFF; /* Skill level color */
+  background-color: #007BFF;
 }
 
 /**/
@@ -257,7 +257,7 @@ opacity: 1;
 
 .station-details {
   display: flex;
-  flex-direction: column; /* Stack station name and value vertically */
+  flex-direction: column;
 }
 
 .station-name {
@@ -267,8 +267,8 @@ opacity: 1;
 
 .station-value {
   font-size: 16px;
-  color: #FF7F5C; /* Adjust color as needed */
-  margin-top: 5px; /* Add some vertical space */
+  color: #FF7F5C;
+  margin-top: 5px;
   margin-left: 50px;
 }
 
@@ -290,9 +290,121 @@ opacity: 1;
   margin-top: 30px;
 }
 .card-content{
-  /* Your existing card styles */
 
-  /* Add margin-top to create space between cards */
   margin-top: 30px;
 }
 
+
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20vh;
+  }
+
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .card.active {
+    width: 170px;
+    height: 120px;
+    background: #F4DBD4;
+    border-radius: 24px;
+    opacity: 1;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+
+  .card {
+    width: 170px;
+    height: 120px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    opacity: 1;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .graph {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+
+}
+
+
+
+/* Media Query for screens between 1101px and 1281px wide */
+@media (min-width: 1101px) and (max-width: 1281px) {
+  .container {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10vh;
+
+
+  }
+
+  .cards-container {
+    justify-content: flex-start;
+  }
+
+  .right-side {
+    flex: 1;
+  }
+
+  .card.active,
+  .card {
+    width: 140px;
+    height: 100px;
+    margin-left: 52px;
+    margin-bottom: 25px;
+  }
+
+  .graph {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-top: 20px;
+    width: 92%;
+    margin-left: 55px;
+    margin-top: 55px;
+  }
+
+  .graphC {
+    width: 250px;
+    height: 300px;
+  }
+
+  .buttons-container {
+
+
+    width: 250px;
+    height: 44px;
+
+
+    border-radius: 15%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 55px;
+  }
+}

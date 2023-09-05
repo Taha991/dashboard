@@ -8,7 +8,7 @@ import { Chart, registerables } from 'chart.js';
 })
 export class DashboardBodyComponent implements AfterViewInit  {
    // Track the current view (initially set to 'chart')
-   repeatCount = 4; // Specify the number of times to repeat the component
+   repeatCount = 2; // Specify the number of times to repeat the component
 
    currentView = 'chart';
   @ViewChild('mychart') mychart: any;
@@ -41,7 +41,7 @@ export class DashboardBodyComponent implements AfterViewInit  {
             backgroundColor: '#FF7F5C)',
             borderColor: '#FF7F5C',
             borderWidth: 1,
-            barThickness: 11, // Set the width of the bars to 11px
+            barThickness: 11,
 
           },
 
@@ -63,14 +63,14 @@ export class DashboardBodyComponent implements AfterViewInit  {
             borderColor: '#009ACF33',
             borderWidth: 1,
             pointStyle: 'circle', // You can use 'circle' to make it look like a radar point
-            pointRadius: 0, // Set pointRadius to 0 to hide the data points
+            pointRadius: 0,
           },
         ],
       },
       options: {
         plugins: {
           legend: {
-            display: false, // Hide the legend
+            display: false,
           },
           tooltip: {
             enabled: false, // Disable tooltips
