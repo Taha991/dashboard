@@ -1,6 +1,9 @@
 # Angular Dashboard
 
-![Angular Dashboard Screenshot](./src/assets/Images/PMS.png)
+![Angular Dashboard Screenshot](./src/assets/Images/1.png)
+![Angular Dashboard Screenshot](./src/assets/Images/2.png)
+![Angular Dashboard Screenshot](./src/assets/Images/3.png)
+![Angular Dashboard Screenshot](./src/assets/Images/4.png)
 
 
 
