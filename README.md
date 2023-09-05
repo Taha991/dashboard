@@ -1,6 +1,9 @@
 # Angular Dashboard
 
-![Angular Dashboard Screenshot](./path/to/screenshot.png)
+![Angular Dashboard Screenshot](./src/assets/Images/PMS.png)
+
+
+
 
 ## Description
 
