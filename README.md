@@ -1,10 +1,7 @@
 # Angular Dashboard
 
-![Angular Dashboard Screenshot](./src/assets/Images/1.jpg)
 ![Angular Dashboard Screenshot](./src/assets/Images/2.png)
-![Angular Dashboard Screenshot](./src/assets/Images/3.jpg)
 
-![Angular Dashboard Screenshot](./src/assets/Images/4.jpg)
 
 
 
