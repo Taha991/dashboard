@@ -1,0 +1,164 @@
+.card {
+  /* Layout Properties */
+  width: 800px;
+  height: auto;
+  background: #FFFFFF;
+  opacity: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.station-icon {
+  /* Define your station icon styling here */
+}
+
+.station-name {
+  margin-left: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid #E0E7F1;
+  padding-bottom: 5px;
+  width:100%;
+
+}
+
+.header-right {
+  position: relative;
+}
+
+.three-dots-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #000;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  display: none;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.three-dots-button:focus + .dropdown {
+  display: block;
+}
+
+.dropdown-content {
+  padding: 10px;
+}
+
+.property h1 {
+  /* Layout Properties */
+  text-align: center;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox label {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.checkbox input[type="checkbox"]:checked + label {
+  background-color: #FF7F5C;
+  border-color: #FF7F5C;
+}
+
+
+.my-custom-icon {
+  color: black;
+  font-size: 18px;
+}
+
+/* Add this style for the dropdown card */
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  display: none;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.29); /* Add a drop shadow */
+  opacity: 1;
+  z-index: 1; /* Ensure the dropdown appears above other elements */
+}
+
+/* Add this style for the dropdown content */
+.dropdown-content {
+  padding: 10px;
+}
+
+.fa-solid {
+
+  cursor: pointer; /* Show pointer cursor on hover for clickability */
+}
+
+
+.grid-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: row; /* Items in the same row */
+  align-items: center;
+  gap: 30%; /* Adjust the gap between items as needed */
+}
+
+.item {
+  display: flex;
+  flex-direction: column; /* Items in separate lines */
+  align-items: center;
+}
+
+.item h2 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0; /* Remove default margin to avoid spacing issues */
+}
+
+.item span {
+  font-size: 12px;
+  color: #000;
+}

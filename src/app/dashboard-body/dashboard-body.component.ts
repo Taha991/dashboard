@@ -7,10 +7,22 @@ import { Chart, registerables } from 'chart.js';
   styleUrls: ['./dashboard-body.component.css']
 })
 export class DashboardBodyComponent implements AfterViewInit  {
+   // Track the current view (initially set to 'chart')
+   repeatCount = 4; // Specify the number of times to repeat the component
+
+   currentView = 'chart';
   @ViewChild('mychart') mychart: any;
   @ViewChild('radarChart') radarChart: any;
   chart!: Chart;
 
+   // Function to switch views
+   switchView(view: string) {
+    this.currentView = view;
+  }
+
+  repeatArray(count: number): any[] {
+    return new Array(count);
+  }
   ngAfterViewInit(): void {
     this.createChart();
   }

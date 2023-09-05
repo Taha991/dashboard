@@ -137,6 +137,7 @@ opacity: 1;
 
   text-transform: uppercase;
   cursor: pointer;
+
 }
 
 .button.active {
@@ -284,3 +285,14 @@ color: #B9CDE2;
 opacity: 1;
 
 }
+
+.component-with-margin {
+  margin-top: 30px;
+}
+.card-content{
+  /* Your existing card styles */
+
+  /* Add margin-top to create space between cards */
+  margin-top: 30px;
+}
+

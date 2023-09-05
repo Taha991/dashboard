@@ -1,1 +1,74 @@
-<p>lit-componend works!</p>
+<div class="card">
+  <div class="card-header">
+    <div class="header-left">
+      <img
+        src="../../assets/Images/gas-station-svgrepo-com.png"
+        alt="Station Icon"
+        class="station-icon"
+      />
+      <span class="station-name">STATION NAME DUMMY</span>
+    </div>
+    <div class="header-right">
+      <div class="dropdown-container">
+        <i
+          class="fa-solid fa-ellipsis my-custom-icon"
+          (click)="toggleDropdown()"
+        ></i>
+        <!-- ... -->
+        <div class="dropdown" *ngIf="isDropdownOpen">
+          <div class="dropdown-content">
+            <div class="property">
+              <h1>Property</h1>
+              <div class="checkboxes">
+                <div class="checkbox">
+                  <input
+                    type="checkbox"
+                    id="checkbox1"
+                    (click)="toggleCheckbox(1)"
+                  />
+                  <label
+                    for="checkbox1"
+                    [style.backgroundColor]="checkboxColors[1]"
+                    >Total Sales</label
+                  >
+                </div>
+                <div class="checkbox">
+                  <input
+                    type="checkbox"
+                    id="checkbox2"
+                    (click)="toggleCheckbox(2)"
+                  />
+                  <label
+                    for="checkbox2"
+                    [style.backgroundColor]="checkboxColors[2]"
+                    >Another Option</label
+                  >
+                </div>
+                <!-- Add more checkboxes with unique IDs and labels -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ... -->
+      </div>
+    </div>
+  </div>
+  <div class="grid-container">
+    <div class="grid-item">
+      <div class="item">
+        <h2>Total Sales</h2>
+        <span>62,721</span>
+      </div>
+      <div class="item">
+        <h2>Compression State</h2>
+        <span>Compression</span>
+      </div>
+      <div class="item">
+        <h2>Max Transaction / hour</h2>
+        <span>Max Transaction Date-Time</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
