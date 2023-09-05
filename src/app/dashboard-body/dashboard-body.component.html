@@ -36,29 +36,24 @@
         <button class="button" [class.active]="currentView === 'list'" (click)="switchView('list')"><i class="fa-solid fa-list"></i> LIST</button>
       </div>
 
-      <div class="graph" *ngIf="currentView === 'chart'">
+    <div class="graph" *ngIf="currentView === 'chart'">
 
-        <div style="width: 100%;">
-          <div style="width: 100%;">
-            <canvas id="myChart" width="700" height="250" #mychart></canvas>
-          </div>
+  <div style="width: 100%;">
 
-        </div>
+    <div style="width: 100%;">
+      <canvas id="myChart" width="700" height="250" #mychart></canvas>
 
+    </div>
+  </div>
+</div>
 
-       </div>
-       <div class="list">
-        <ng-container *ngFor="let _ of repeatArray(repeatCount); let i = index">
-          <div class="card-content">
-
-          <app-lit-componend
-            *ngIf="currentView === 'list'"
-          ></app-lit-componend>
-        </div>
-
-        </ng-container>
-
-       </div>
+<div class="list">
+  <ng-container *ngFor="let _ of repeatArray(repeatCount); let i = index">
+    <div class="card-content">
+      <app-lit-componend *ngIf="currentView === 'list'"></app-lit-componend>
+    </div>
+  </ng-container>
+</div>
 
   </div>
 
