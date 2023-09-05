@@ -1,6 +1,8 @@
 # Angular Dashboard
 
-![Uploading image.png…]()
+![Angular Dashboard Screenshot](./src/assets/Images/PMS.png)
+
+
 
 
 ## Description
