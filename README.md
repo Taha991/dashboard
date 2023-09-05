@@ -1,6 +1,7 @@
 # Angular Dashboard
 
-![Angular Dashboard Screenshot](./path/to/screenshot.png)
+![Uploading image.png…]()
+
 
 ## Description
 
